@@ -9,8 +9,7 @@ export function Header() {
     <div className="flex items-center justify-between border-red-700">
       <div className="flex items-center gap-5">
         <Link href="/" className="text-2xl font-extrabold text-white flex">
-          CupMentor
-          <Image src="/logo.png" height={20} width={40} alt="/" />
+          Cup<span className="font-semibold text-red-600">Mentors</span>
         </Link>
       </div>
 
@@ -19,14 +18,14 @@ export function Header() {
           Home
         </Link>
         <div className="w-px h-4 bg-zinc-700" />
-        <Link href="/" className={slideBarStyle}>
+        <Link href="#sobre" className={slideBarStyle}>
           Sobre
         </Link>
         <Link href="#ferramentas" className={slideBarStyle}>
           Ferramentas
         </Link>
-        <Link href="/" className={slideBarStyle}>
-          Docs
+        <Link href="#contato" className={slideBarStyle}>
+          Contato
         </Link>
         <div className="w-px h-4 bg-zinc-700" />
         <Button variant="ghost">

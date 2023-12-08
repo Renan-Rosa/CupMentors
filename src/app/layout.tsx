@@ -6,7 +6,7 @@ import { Header } from "@/components/header"
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 
 export const metadata: Metadata = {
-  title: "CupMentor | Academy",
+  title: "CupMentors | Academy",
 }
 
 export default function RootLayout({
