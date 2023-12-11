@@ -1,7 +1,7 @@
-import Image from "next/image"
-import { Button } from "./ui/button"
-import Link from "next/link"
 import { ChevronUp } from "lucide-react"
+import { Button } from "./ui/button"
+import Image from "next/image"
+import Link from "next/link"
 
 export function Footer() {
   return (
@@ -16,10 +16,23 @@ export function Footer() {
           Informação. Siga-nos nas redes sociais para ficar por dentro das
           últimas atualizações, dicas exclusivas e participar de discussões
           envolventes. Estamos ansiosos para compartilhar o conhecimento e a
-          inspiração com você. Vamos crescer juntos! 🚀
+          inspiração com você. Entre em contato com nossa equipe através das
+          redes sociais abaixo! 🚀
         </p>
         <div className=" flex flex-rows justify-between ">
           <div>
+            <Button variant="ghost">
+              {" "}
+              <Link href="/" target="_blank">
+                <Image src="/whatsapp.svg" alt="Logo" width={20} height={20} />
+              </Link>
+            </Button>
+            <Button variant="ghost">
+              {" "}
+              <Link href="/" target="_blank">
+                <Image src="/gmail.svg" alt="Logo" width={20} height={20} />
+              </Link>
+            </Button>
             <Button variant="ghost">
               {" "}
               <Link href="/" target="_blank">
@@ -41,14 +54,14 @@ export function Footer() {
           <Button variant="ghost">
             {" "}
             <Link href="/" className="flex">
-              Retornar Home <ChevronUp className="mt-0.5 ml-2 h-4 w-4" />
+              Retornar ao Início <ChevronUp className="mt-0.5 ml-2 h-4 w-4" />
             </Link>
           </Button>
         </div>
       </div>
       <div className="justify-center h-px bg-zinc-700 my-3" />
       <p className="text-center">
-        ©{new Date().getFullYear()} Lancer. Todos os direitos reservados.{" "}
+        ©{new Date().getFullYear()} CupMentors. Todos os direitos reservados.{" "}
       </p>
     </section>
   )

@@ -1,6 +1,6 @@
 import Link from "next/link"
-import { Button } from "./ui/button"
 import Image from "next/image"
+import { Button } from "./ui/button"
 
 export function Header() {
   const slideBarStyle =
@@ -28,8 +28,8 @@ export function Header() {
           Contato
         </Link>
         <div className="w-px h-4 bg-zinc-700" />
-        <Button variant="ghost">
-          <Link href="/">News+</Link>
+        <Button variant="secondary">
+          <Link href="/login">Login</Link>
         </Button>
       </nav>
 
