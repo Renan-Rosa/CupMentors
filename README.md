@@ -1,3 +1,8 @@
+# What is CupMentor ?
+CupMentor is a college mentoring scheduling platform, using modern tools such as Notion, Discord, etc. It has an interactive dashboard for mentors to organize themselves
+
+Technologies used: Next, Shadcn ui, React, Node, Typescript.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
